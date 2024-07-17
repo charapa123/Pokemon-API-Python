@@ -84,31 +84,4 @@ pokemon = get_pokemon(generation_websites)
 
 df = pd.json_normalize(pokemon)
 
-df.to_csv(r'G:\My Drive\Glencore\pokemon.csv')
-
-
-
-#-- Next need to get dictionary of all the pokemon I want
-
-
-#['moves'][0]['name']
-
-#abilities
-#pokemon species
-#types
-
-
-
-
-
-#def get_region(response):
-#    list_gen_url = []
-#    for item in response:
-#        gen = {
-#            'url': item['url']
-#        }
-#        list_gen_url.append(gen)
-#    return list_gen_url
-
-
-#r2 = requests.get(generations)
+df.to_csv(r'C:\My Drive\pokemon.csv')
