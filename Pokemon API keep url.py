@@ -38,7 +38,7 @@ all_pokemon = get_pokemon(all_data, all_data2)
 
 df = pd.json_normalize(all_pokemon)
 
-df.to_csv(r'G:\My Drive\Glencore\pokemon_withcorrecturlidkhow.csv')
+df.to_csv(r'mypath/pokemon_withcorrecturl.csv')
 
 
 
